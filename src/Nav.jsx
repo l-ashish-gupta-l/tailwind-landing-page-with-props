@@ -5,7 +5,7 @@ import Img from "./assets/logo-nav.png"
 
 function Nav() {
   return (
-    <nav className=' border-2 border-red-500 bg-transparent w-screen h-[10vh] flex justify-between  px-[5vw]'>
+    <nav className='   bg-transparent w-screen h-[10vh] flex justify-between  px-[5vw]'>
        <div> <a href="#" className=' w-[15vw] h-full flex justify-center items-center'>
         <img src={Img}  className=' w-1/2 h-1/2 '/></a>
        </div>
