@@ -11,6 +11,7 @@ import Page3 , { Page3card } from './Page3.jsx'
 import p1img from "./assets/page 3 p1.png"
 import p2img from "./assets/page 3 p2.png"
 import p3img from "./assets/page 3 p3.png"
+import Footer from "./Footer"
 function App() {
   return (
     <div className=' bg-[#00040F] m-0 p-0 box-border font-font '>
@@ -71,8 +72,8 @@ function App() {
           p3name= "Kenn Gallagher"
           p3degi ="Founder & Leader"
         />
-        
       </div>
+        <Footer/>
     </div>
   )
 }
